@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_API_URL || 'https://solarise.vintechafrica.com';
+const BASE = import.meta.env.VITE_API_URL || 'https://solarise-api.vintechafrica.com';
 
 export const getToken  = () => localStorage.getItem('si_admin_token');
 export const setToken  = (t) => localStorage.setItem('si_admin_token', t);
